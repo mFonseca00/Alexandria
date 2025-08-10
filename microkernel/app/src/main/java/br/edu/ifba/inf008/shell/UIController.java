@@ -52,7 +52,7 @@ public class UIController extends Application implements IUIController
     @FXML
     private void handleGithubRepositoryLink() {
         try {
-            String url = "https://github.com/mFonseca00/inf008/tree/main/Trabalho_2";
+            String url = "https://github.com/mFonseca00/Alexandria.git";
             java.awt.Desktop.getDesktop().browse(java.net.URI.create(url));
         } catch (Exception e) {
             System.err.println("Erro ao abrir o link: " + e.getMessage());
